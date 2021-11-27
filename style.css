@@ -1,4 +1,41 @@
-.header-logo,.header-text {
-    width: 70px;
+
+/*body is default BW*/
+body {
+    background: black;
+    color: white;
+    padding: 10px 40px;
 }
 
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 40px;
+    padding: 10px;
+}
+
+.header-links, .subtitle{
+    font-size: 18px;
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+  }
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+img {
+  width: 30%;
+}
